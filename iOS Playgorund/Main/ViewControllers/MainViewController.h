@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  iOS Playgorund
 //
 //  Created by Prabir Shrestha on 11/30/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface MainViewController : UIViewController
 
 @end

@@ -53,7 +53,10 @@
     }];
     
     [self.tableView setDidSelectRowAtIndexPathBlock:^(UITableView *tableView, NSIndexPath *indexPath) {
-        NSLog(@"%@", indexPath);
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:[NSString stringWithFormat:@"%@Storyboard", datasource[indexPath.row]] bundle:nil];
+        UIViewController* vc = [storyboard instantiateInitialViewController];
+        [self.navigationController pushViewController:vc animated:YES];
+        [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
     }];
 }
 

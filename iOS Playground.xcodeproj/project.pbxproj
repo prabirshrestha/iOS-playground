@@ -23,6 +23,7 @@
 		0FFFBDDA166954360046FA7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FFFBDD8166954360046FA7F /* InfoPlist.strings */; };
 		0FFFBDDD166954360046FA7F /* iOS_PlaygroundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBDDC166954360046FA7F /* iOS_PlaygroundTests.m */; };
 		0FFFBDFA166959130046FA7F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBDF9166959130046FA7F /* MainViewController.m */; };
+		0FFFBDFD16695BBB0046FA7F /* BlocksKitStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFFBDFC16695BBB0046FA7F /* BlocksKitStoryboard.storyboard */; };
 		22B59BB2F3424128A0385C72 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E30151F21431ABC35841A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		0FFFBDDC166954360046FA7F /* iOS_PlaygroundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PlaygroundTests.m; sourceTree = "<group>"; };
 		0FFFBDF8166959130046FA7F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Main/ViewControllers/MainViewController.h; sourceTree = "<group>"; };
 		0FFFBDF9166959130046FA7F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Main/ViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		0FFFBDFC16695BBB0046FA7F /* BlocksKitStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BlocksKitStoryboard.storyboard; path = BlocksKit/BlocksKitStoryboard.storyboard; sourceTree = "<group>"; };
 		A57E30151F21431ABC35841A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AF5F0B13F4455AB8AA52AE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				0FFFBDF5166958BF0046FA7F /* Main */,
+				0FFFBDFB16695B9F0046FA7F /* BlocksKit */,
 				0FFFBDBA166954360046FA7F /* AppDelegate.h */,
 				0FFFBDBB166954360046FA7F /* AppDelegate.m */,
 				0FFFBDB2166954360046FA7F /* Supporting Files */,
@@ -180,6 +183,14 @@
 				0FFFBDF9166959130046FA7F /* MainViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0FFFBDFB16695B9F0046FA7F /* BlocksKit */ = {
+			isa = PBXGroup;
+			children = (
+				0FFFBDFC16695BBB0046FA7F /* BlocksKitStoryboard.storyboard */,
+			);
+			name = BlocksKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 				0FFFBDC0166954360046FA7F /* Default@2x.png in Resources */,
 				0FFFBDC2166954360046FA7F /* Default-568h@2x.png in Resources */,
 				0FFFBDC5166954360046FA7F /* MainStoryboard.storyboard in Resources */,
+				0FFFBDFD16695BBB0046FA7F /* BlocksKitStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,7 +22,7 @@
 		0FE4472216694867004BF16A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE446FD16694866004BF16A /* Foundation.framework */; };
 		0FE4472A16694867004BF16A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4472816694867004BF16A /* InfoPlist.strings */; };
 		0FE4472D16694867004BF16A /* iOS_PlaygorundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4472C16694867004BF16A /* iOS_PlaygorundTests.m */; };
-		0FFFBD7F166949EF0046FA7F /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBD7E166949EF0046FA7F /* MainViewController.m */; };
+		0FFFBD8E16694F230046FA7F /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBD8D16694F230046FA7F /* MainTableViewController.m */; };
 		B879030032CC48CBB2C97F28 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 457DC0A612BC4A71AD301D7C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -57,8 +57,8 @@
 		0FE4472916694867004BF16A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0FE4472B16694867004BF16A /* iOS_PlaygorundTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS_PlaygorundTests.h; sourceTree = "<group>"; };
 		0FE4472C16694867004BF16A /* iOS_PlaygorundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS_PlaygorundTests.m; sourceTree = "<group>"; };
-		0FFFBD7D166949EF0046FA7F /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Main/ViewControllers/MainViewController.h; sourceTree = "<group>"; };
-		0FFFBD7E166949EF0046FA7F /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Main/ViewControllers/MainViewController.m; sourceTree = "<group>"; };
+		0FFFBD8C16694F230046FA7F /* MainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainTableViewController.h; path = Main/ViewControllers/MainTableViewController.h; sourceTree = "<group>"; };
+		0FFFBD8D16694F230046FA7F /* MainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainTableViewController.m; path = Main/ViewControllers/MainTableViewController.m; sourceTree = "<group>"; };
 		457DC0A612BC4A71AD301D7C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		78AFC9237EEC483BB722B14D /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -176,8 +176,8 @@
 		0FFFBD7C166949DC0046FA7F /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				0FFFBD7D166949EF0046FA7F /* MainViewController.h */,
-				0FFFBD7E166949EF0046FA7F /* MainViewController.m */,
+				0FFFBD8C16694F230046FA7F /* MainTableViewController.h */,
+				0FFFBD8D16694F230046FA7F /* MainTableViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -309,7 +309,7 @@
 			files = (
 				0FE4470816694867004BF16A /* main.m in Sources */,
 				0FE4470C16694867004BF16A /* AppDelegate.m in Sources */,
-				0FFFBD7F166949EF0046FA7F /* MainViewController.m in Sources */,
+				0FFFBD8E16694F230046FA7F /* MainTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

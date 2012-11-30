@@ -1,5 +1,5 @@
 //
-//  MainViewController.h
+//  MainTableViewController.h
 //  iOS Playgorund
 //
 //  Created by Prabir Shrestha on 11/30/12.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MainViewController : UIViewController
+@interface MainTableViewController : UITableViewController
 
 @end

@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'iOS Playgorund' target in the 'iOS Playgorund' project
+// Prefix header for all source files of the 'iOS Playground' target in the 'iOS Playground' project
 //
 
 #import <Availability.h>

@@ -1,22 +1,28 @@
 
-COCOAPODS: 0.15.2
-
-SPEC CHECKSUMS: 
-  BlocksKit: 18102744fd7c44b54f1e54ce6ffe9258bcb5df81
-  SVPullToRefresh: d95803a9816d3919378ede69342c54927fb953ea
-  libffi: 8a1d9ba43c0c84b546b42c6f742714e73aa07ae1
-
-PODS: 
-- BlocksKit (1.8.1): 
-  - libffi
-- SVPullToRefresh (0.2)
-- libffi (3.0.11)
-
 EXTERNAL SOURCES: 
+  MTBlockTableView: 
+    :git: https://github.com/mysterioustrousers/MTBlockTableView.git
+    :commit: f5de3c422a9e85399c4e31f66daa890ec05d09f9
   SVPullToRefresh: 
     :git: https://github.com/samvermette/SVPullToRefresh.git
     :commit: 6360ae97e8263c67a54658b218d4cd11af5d5412
 
+COCOAPODS: 0.16.0
+
 DEPENDENCIES: 
 - BlocksKit (= 1.8.1)
+- MTBlockTableView (from `https://github.com/mysterioustrousers/MTBlockTableView.git', commit `f5de3c422a9e85399c4e31f66daa890ec05d09f9')
 - SVPullToRefresh (from `https://github.com/samvermette/SVPullToRefresh.git', commit `6360ae97e8263c67a54658b218d4cd11af5d5412')
+
+PODS: 
+- BlocksKit (1.8.1): 
+  - libffi
+- MTBlockTableView (0.0.1)
+- SVPullToRefresh (0.2)
+- libffi (3.0.11)
+
+SPEC CHECKSUMS: 
+  MTBlockTableView: ad24b5ff32f05b6b3a949f346b2b599b6a0bbb45
+  BlocksKit: 18102744fd7c44b54f1e54ce6ffe9258bcb5df81
+  libffi: 8a1d9ba43c0c84b546b42c6f742714e73aa07ae1
+  SVPullToRefresh: d95803a9816d3919378ede69342c54927fb953ea

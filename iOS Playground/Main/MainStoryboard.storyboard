@@ -58,17 +58,6 @@
             <point key="canvasLocation" x="-163" y="110"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="MTBlockTableView" superclassName="UITableView">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MTBlockTableView.h"/>
-        </class>
-        <class className="MainViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/MainViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="tableView" candidateClass="MTBlockTableView"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

@@ -38,7 +38,6 @@
 
 - (IBAction)showActionSheetTouchUpInside:(id)sender {
     UIActionSheet *actionSheet = [UIActionSheet actionSheetWithTitle:@"Sample Action Sheet"];
-    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
     [actionSheet addButtonWithTitle:@"OK" handler:^{
         NSLog(@"OK");
     }];
@@ -48,7 +47,6 @@
 
 - (IBAction)showActionSheetWithoutTitleTouchUpInside:(id)sender {
     UIActionSheet *actionSheet = [UIActionSheet actionSheetWithTitle:nil];
-    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
     [actionSheet addButtonWithTitle:@"OK" handler:^{
         NSLog(@"OK");
     }];
@@ -58,7 +56,6 @@
 
 - (IBAction)showActionSheetAndHideOnTapTouchUpInside:(id)sender {
     __block UIActionSheet *actionSheet = [UIActionSheet actionSheetWithTitle:nil];
-    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
     [actionSheet addButtonWithTitle:@"OK" handler:^{
         NSLog(@"OK");
     }];

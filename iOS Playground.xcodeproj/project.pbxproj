@@ -28,6 +28,7 @@
 		0FFFBE11166992CA0046FA7F /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBE10166992CA0046FA7F /* PickerViewController.m */; };
 		0FFFBE4E166A69B50046FA7F /* SEHumanizedTimeDiffStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFFBE4D166A69B50046FA7F /* SEHumanizedTimeDiffStoryboard.storyboard */; };
 		0FFFBE52166A6A820046FA7F /* SEHumaziedTimeDiffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBE51166A6A820046FA7F /* SEHumaziedTimeDiffViewController.m */; };
+		0FFFBE5C166A79300046FA7F /* PickerViewInActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBE5B166A79300046FA7F /* PickerViewInActionSheetViewController.m */; };
 		22B59BB2F3424128A0385C72 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E30151F21431ABC35841A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,8 @@
 		0FFFBE4D166A69B50046FA7F /* SEHumanizedTimeDiffStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SEHumanizedTimeDiffStoryboard.storyboard; path = SEHumanizedTimeDiff/SEHumanizedTimeDiffStoryboard.storyboard; sourceTree = "<group>"; };
 		0FFFBE50166A6A820046FA7F /* SEHumaziedTimeDiffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SEHumaziedTimeDiffViewController.h; path = SEHumanizedTimeDiff/ViewControllers/SEHumaziedTimeDiffViewController.h; sourceTree = "<group>"; };
 		0FFFBE51166A6A820046FA7F /* SEHumaziedTimeDiffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SEHumaziedTimeDiffViewController.m; path = SEHumanizedTimeDiff/ViewControllers/SEHumaziedTimeDiffViewController.m; sourceTree = "<group>"; };
+		0FFFBE5A166A79300046FA7F /* PickerViewInActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewInActionSheetViewController.h; path = BlocksKit/ViewControllers/PickerViewInActionSheetViewController.h; sourceTree = "<group>"; };
+		0FFFBE5B166A79300046FA7F /* PickerViewInActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewInActionSheetViewController.m; path = BlocksKit/ViewControllers/PickerViewInActionSheetViewController.m; sourceTree = "<group>"; };
 		A57E30151F21431ABC35841A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AF5F0B13F4455AB8AA52AE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -213,6 +216,8 @@
 				0FFFBE0016695F080046FA7F /* ActionSheetViewController.m */,
 				0FFFBE0F166992CA0046FA7F /* PickerViewController.h */,
 				0FFFBE10166992CA0046FA7F /* PickerViewController.m */,
+				0FFFBE5A166A79300046FA7F /* PickerViewInActionSheetViewController.h */,
+				0FFFBE5B166A79300046FA7F /* PickerViewInActionSheetViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -368,6 +373,7 @@
 				0FFFBE0116695F080046FA7F /* ActionSheetViewController.m in Sources */,
 				0FFFBE11166992CA0046FA7F /* PickerViewController.m in Sources */,
 				0FFFBE52166A6A820046FA7F /* SEHumaziedTimeDiffViewController.m in Sources */,
+				0FFFBE5C166A79300046FA7F /* PickerViewInActionSheetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

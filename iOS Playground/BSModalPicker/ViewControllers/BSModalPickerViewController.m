@@ -11,6 +11,8 @@
 
 @interface BSModalPickerViewController ()
 
+@property(nonatomic, strong) NSString *selectedValue;
+
 @end
 
 @implementation BSModalPickerViewController
@@ -27,6 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    self.selectedValue = @"Male";
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,9 +40,11 @@
 - (IBAction)showPickerTouchUpInside:(id)sender {
     __block NSArray *dataSource = @[@"Male", @"Female"];
     BSModalPickerView *pickerView = [[BSModalPickerView alloc] initWithValues:dataSource];
+    pickerView.selectedValue = self.selectedValue;
 //    [pickerView presentInWindowWithBlock:^(BOOL madeChoice) {
     [pickerView presentInView:self.view withBlock:^(BOOL madeChoice) {
         if(!madeChoice) return;
+        self.selectedValue = pickerView.selectedValue;
 
         NSLog(@"Selected index: %d", pickerView.selectedIndex);
         NSLog(@"Selected value: %@", pickerView.selectedValue);

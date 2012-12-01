@@ -37,7 +37,7 @@
 }
 
 - (IBAction)showActionSheetTouchUpInside:(id)sender {
-    __block UIActionSheet *actionSheet = [UIActionSheet actionSheetWithTitle:@"Sample Action Sheet"];
+    UIActionSheet *actionSheet = [UIActionSheet actionSheetWithTitle:@"Sample Action Sheet"];
     actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
     [actionSheet addButtonWithTitle:@"OK" handler:^{
         NSLog(@"OK");
@@ -47,6 +47,16 @@
 }
 
 - (IBAction)showActionSheetWithoutTitleTouchUpInside:(id)sender {
+    UIActionSheet *actionSheet = [UIActionSheet actionSheetWithTitle:nil];
+    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
+    [actionSheet addButtonWithTitle:@"OK" handler:^{
+        NSLog(@"OK");
+    }];
+    [actionSheet setCancelButtonWithTitle:@"Cancel" handler:nil];
+    [actionSheet showInView:self.view];
+}
+
+- (IBAction)showActionSheetAndHideOnTapTouchUpInside:(id)sender {
     __block UIActionSheet *actionSheet = [UIActionSheet actionSheetWithTitle:nil];
     actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
     [actionSheet addButtonWithTitle:@"OK" handler:^{
@@ -54,6 +64,10 @@
     }];
     [actionSheet setCancelButtonWithTitle:@"Cancel" handler:nil];
     [actionSheet showInView:self.view];
+
+    [actionSheet.superview whenTapped:^{
+        [actionSheet dismissWithClickedButtonIndex:0 animated:YES];
+    }];
 }
 
 @end

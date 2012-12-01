@@ -21,3 +21,8 @@ install_resource()
       ;;
   esac
 }
+install_resource 'SEHumanizedTimeDiff/SEHumanizedTime/en.lproj'
+install_resource 'SEHumanizedTimeDiff/SEHumanizedTime/de.lproj'
+install_resource 'SEHumanizedTimeDiff/SEHumanizedTime/ja.lproj'
+install_resource 'SEHumanizedTimeDiff/SEHumanizedTime/tr.lproj'
+install_resource 'SEHumanizedTimeDiff/SEHumanizedTime/zh-Hans.lproj'

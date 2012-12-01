@@ -38,7 +38,10 @@
 }
 
 - (void)setupTableView {
-    NSArray *datasource = @[ @"BlocksKit"];
+    NSArray *datasource = @[
+              @"BlocksKit"
+            , @"SEHumanizedTimeDiff"
+    ];
     
     [self.tableView setNumberOfRowsInSectionBlock:^NSInteger(UITableView *tableView, NSInteger section) {
         return datasource.count;

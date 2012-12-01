@@ -46,4 +46,14 @@
     [actionSheet showInView:self.view];
 }
 
+- (IBAction)showActionSheetWithoutTitleTouchUpInside:(id)sender {
+    __block UIActionSheet *actionSheet = [UIActionSheet actionSheetWithTitle:nil];
+    actionSheet.actionSheetStyle = UIActionSheetStyleDefault;
+    [actionSheet addButtonWithTitle:@"OK" handler:^{
+        NSLog(@"OK");
+    }];
+    [actionSheet setCancelButtonWithTitle:@"Cancel" handler:nil];
+    [actionSheet showInView:self.view];
+}
+
 @end

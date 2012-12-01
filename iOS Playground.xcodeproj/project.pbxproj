@@ -25,6 +25,7 @@
 		0FFFBDFD16695BBB0046FA7F /* BlocksKitStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFFBDFC16695BBB0046FA7F /* BlocksKitStoryboard.storyboard */; };
 		0FFFBE0116695F080046FA7F /* ActionSheetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBE0016695F080046FA7F /* ActionSheetViewController.m */; };
 		0FFFBE0316698B0D0046FA7F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FFFBE0216698B0D0046FA7F /* MainStoryboard.storyboard */; };
+		0FFFBE11166992CA0046FA7F /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFFBE10166992CA0046FA7F /* PickerViewController.m */; };
 		22B59BB2F3424128A0385C72 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A57E30151F21431ABC35841A /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +65,8 @@
 		0FFFBDFF16695F080046FA7F /* ActionSheetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionSheetViewController.h; path = BlocksKit/ViewControllers/ActionSheetViewController.h; sourceTree = "<group>"; };
 		0FFFBE0016695F080046FA7F /* ActionSheetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionSheetViewController.m; path = BlocksKit/ViewControllers/ActionSheetViewController.m; sourceTree = "<group>"; };
 		0FFFBE0216698B0D0046FA7F /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryboard.storyboard; path = Main/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		0FFFBE0F166992CA0046FA7F /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PickerViewController.h; path = BlocksKit/ViewControllers/PickerViewController.h; sourceTree = "<group>"; };
+		0FFFBE10166992CA0046FA7F /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PickerViewController.m; path = BlocksKit/ViewControllers/PickerViewController.m; sourceTree = "<group>"; };
 		A57E30151F21431ABC35841A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7AF5F0B13F4455AB8AA52AE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -202,6 +205,8 @@
 			children = (
 				0FFFBDFF16695F080046FA7F /* ActionSheetViewController.h */,
 				0FFFBE0016695F080046FA7F /* ActionSheetViewController.m */,
+				0FFFBE0F166992CA0046FA7F /* PickerViewController.h */,
+				0FFFBE10166992CA0046FA7F /* PickerViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -336,6 +341,7 @@
 				0FFFBDBC166954360046FA7F /* AppDelegate.m in Sources */,
 				0FFFBDFA166959130046FA7F /* MainViewController.m in Sources */,
 				0FFFBE0116695F080046FA7F /* ActionSheetViewController.m in Sources */,
+				0FFFBE11166992CA0046FA7F /* PickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

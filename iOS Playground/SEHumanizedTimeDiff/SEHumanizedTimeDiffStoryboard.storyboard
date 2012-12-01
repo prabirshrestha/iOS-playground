@@ -97,23 +97,6 @@
             <point key="canvasLocation" x="388" y="36"/>
         </scene>
     </scenes>
-    <classes>
-        <class className="SEHumaziedTimeDiffViewController" superclassName="UIViewController">
-            <source key="sourceIdentifier" type="project" relativePath="./Classes/SEHumaziedTimeDiffViewController.h"/>
-            <relationships>
-                <relationship kind="outlet" name="aDayLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="aMinuteLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="aYearLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="anHourLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="daysLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="hoursLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="minutesLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="secondsLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="timeNowLabel" candidateClass="UILabel"/>
-                <relationship kind="outlet" name="yearsLabel" candidateClass="UILabel"/>
-            </relationships>
-        </class>
-    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

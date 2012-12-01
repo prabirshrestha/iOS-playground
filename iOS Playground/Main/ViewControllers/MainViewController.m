@@ -40,6 +40,7 @@
 - (void)setupTableView {
     NSArray *datasource = @[
               @"BlocksKit"
+            , @"BSModalPicker"
             , @"SEHumanizedTimeDiff"
     ];
     

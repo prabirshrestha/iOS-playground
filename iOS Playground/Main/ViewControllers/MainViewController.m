@@ -43,6 +43,7 @@
             , @"BSKeyboardControls"
             , @"BSModalPicker"
             , @"SEHumanizedTimeDiff"
+            , @"Youtube"
     ];
     
     [self.tableView setNumberOfRowsInSectionBlock:^NSInteger(UITableView *tableView, NSInteger section) {

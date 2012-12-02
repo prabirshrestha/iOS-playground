@@ -11,6 +11,8 @@
 		0F0207D2166A8FDD00622DA7 /* BSModalPickerStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0207D1166A8FDD00622DA7 /* BSModalPickerStoryboard.storyboard */; };
 		0F0207E0166A937D00622DA7 /* BSKeyboardControlsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F0207DF166A937D00622DA7 /* BSKeyboardControlsStoryboard.storyboard */; };
 		0F0207E4166A939600622DA7 /* BSKeyboardControlsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0207E3166A939600622DA7 /* BSKeyboardControlsViewController.m */; };
+		0F02080E166B076800622DA7 /* YoutubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F02080D166B076800622DA7 /* YoutubeViewController.m */; };
+		0F020811166B078600622DA7 /* YoutubeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F020810166B078600622DA7 /* YoutubeStoryboard.storyboard */; };
 		0FFFBDAC166954360046FA7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFFBDAB166954360046FA7F /* UIKit.framework */; };
 		0FFFBDAE166954360046FA7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFFBDAD166954360046FA7F /* Foundation.framework */; };
 		0FFFBDB0166954360046FA7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFFBDAF166954360046FA7F /* CoreGraphics.framework */; };
@@ -53,6 +55,9 @@
 		0F0207DF166A937D00622DA7 /* BSKeyboardControlsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = BSKeyboardControlsStoryboard.storyboard; path = BSKeyboardControls/BSKeyboardControlsStoryboard.storyboard; sourceTree = "<group>"; };
 		0F0207E2166A939600622DA7 /* BSKeyboardControlsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BSKeyboardControlsViewController.h; path = BSKeyboardControls/ViewControllers/BSKeyboardControlsViewController.h; sourceTree = "<group>"; };
 		0F0207E3166A939600622DA7 /* BSKeyboardControlsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BSKeyboardControlsViewController.m; path = BSKeyboardControls/ViewControllers/BSKeyboardControlsViewController.m; sourceTree = "<group>"; };
+		0F02080C166B076800622DA7 /* YoutubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YoutubeViewController.h; path = Youtube/ViewControllers/YoutubeViewController.h; sourceTree = "<group>"; };
+		0F02080D166B076800622DA7 /* YoutubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YoutubeViewController.m; path = Youtube/ViewControllers/YoutubeViewController.m; sourceTree = "<group>"; };
+		0F020810166B078600622DA7 /* YoutubeStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = YoutubeStoryboard.storyboard; path = Youtube/YoutubeStoryboard.storyboard; sourceTree = "<group>"; };
 		0FFFBDA7166954360046FA7F /* iOS Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FFFBDAB166954360046FA7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0FFFBDAD166954360046FA7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -150,6 +155,24 @@
 			name = ViewControllers;
 			sourceTree = "<group>";
 		};
+		0F02080A166B073600622DA7 /* Youtube */ = {
+			isa = PBXGroup;
+			children = (
+				0F02080F166B076D00622DA7 /* ViewControllers */,
+				0F020810166B078600622DA7 /* YoutubeStoryboard.storyboard */,
+			);
+			name = Youtube;
+			sourceTree = "<group>";
+		};
+		0F02080F166B076D00622DA7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F02080C166B076800622DA7 /* YoutubeViewController.h */,
+				0F02080D166B076800622DA7 /* YoutubeViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		0FFFBD9C166954360046FA7F = {
 			isa = PBXGroup;
 			children = (
@@ -190,6 +213,7 @@
 				0F0207DD166A935300622DA7 /* BSKeyboardControls */,
 				0F0207C8166A8F8200622DA7 /* BSModalPicker */,
 				0FFFBE49166A69640046FA7F /* SEHumanizedTimeDiff */,
+				0F02080A166B073600622DA7 /* Youtube */,
 				0FFFBDBA166954360046FA7F /* AppDelegate.h */,
 				0FFFBDBB166954360046FA7F /* AppDelegate.m */,
 				0FFFBDB2166954360046FA7F /* Supporting Files */,
@@ -369,6 +393,7 @@
 				0FFFBE4E166A69B50046FA7F /* SEHumanizedTimeDiffStoryboard.storyboard in Resources */,
 				0F0207D2166A8FDD00622DA7 /* BSModalPickerStoryboard.storyboard in Resources */,
 				0F0207E0166A937D00622DA7 /* BSKeyboardControlsStoryboard.storyboard in Resources */,
+				0F020811166B078600622DA7 /* YoutubeStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +451,7 @@
 				0FFFBE5C166A79300046FA7F /* PickerViewInActionSheetViewController.m in Sources */,
 				0F0207CF166A8FC400622DA7 /* BSModalPickerViewController.m in Sources */,
 				0F0207E4166A939600622DA7 /* BSKeyboardControlsViewController.m in Sources */,
+				0F02080E166B076800622DA7 /* YoutubeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

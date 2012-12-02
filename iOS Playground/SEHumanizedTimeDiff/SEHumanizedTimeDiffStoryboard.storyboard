@@ -85,6 +85,7 @@
                         <outlet property="aMinuteLabel" destination="g1S-5r-Url" id="2uw-DH-F7s"/>
                         <outlet property="aYearLabel" destination="r87-l7-JgU" id="kbW-Al-4yd"/>
                         <outlet property="anHourLabel" destination="30g-E4-7vb" id="wR5-gd-e9n"/>
+                        <outlet property="daysLabel" destination="vi6-1G-nNc" id="Hku-gO-Nfs"/>
                         <outlet property="hoursLabel" destination="JkD-pL-loa" id="hVk-03-2Gh"/>
                         <outlet property="minutesLabel" destination="6gE-Ct-csm" id="muB-kK-OXL"/>
                         <outlet property="secondsLabel" destination="4Ij-kl-mur" id="WE4-l7-YZN"/>
@@ -97,6 +98,23 @@
             <point key="canvasLocation" x="388" y="36"/>
         </scene>
     </scenes>
+    <classes>
+        <class className="SEHumaziedTimeDiffViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SEHumaziedTimeDiffViewController.h"/>
+            <relationships>
+                <relationship kind="outlet" name="aDayLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="aMinuteLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="aYearLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="anHourLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="daysLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="hoursLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="minutesLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="secondsLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="timeNowLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="yearsLabel" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

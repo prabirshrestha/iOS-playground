@@ -15,6 +15,8 @@
 @property (weak, nonatomic) IBOutlet UITextField *firstNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *middleNameTextField;
 @property (weak, nonatomic) IBOutlet UITextField *lastNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *emailTextField;
+@property (weak, nonatomic) IBOutlet UITextField *mobileTextField;
 
 @end
 
@@ -59,6 +61,8 @@
             self.firstNameTextField,
             self.middleNameTextField,
             self.lastNameTextField,
+            self.emailTextField,
+            self.mobileTextField
     ];
 
     // Add the keyboard control as accessory view for all of the text fields
@@ -86,6 +90,8 @@
     [self setFirstNameTextField:nil];
     [self setMiddleNameTextField:nil];
     [self setLastNameTextField:nil];
+    [self setEmailTextField:nil];
+    [self setMobileTextField:nil];
     [super viewDidUnload];
 }
 

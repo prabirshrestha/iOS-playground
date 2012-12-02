@@ -30,15 +30,29 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" minimumFontSize="17" id="sG3-Mm-CdW">
+                                <rect key="frame" x="20" y="134" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mobile" minimumFontSize="17" id="NYz-nr-FJg">
+                                <rect key="frame" x="20" y="172" width="280" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" keyboardType="phonePad"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="BSKeyboardControls" id="Zuu-36-Jrt"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
+                        <outlet property="emailTextField" destination="sG3-Mm-CdW" id="PHt-cL-U3U"/>
                         <outlet property="firstNameTextField" destination="mbT-Mx-MBy" id="kCj-wV-d6V"/>
                         <outlet property="lastNameTextField" destination="mBi-UO-wNZ" id="BV6-JF-hOY"/>
                         <outlet property="middleNameTextField" destination="hFZ-v2-9jR" id="xbf-tW-5e9"/>
+                        <outlet property="mobileTextField" destination="NYz-nr-FJg" id="wrl-Wr-RyJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iFV-Rg-svB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -50,8 +64,11 @@
         <class className="BSKeyboardControlsViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/BSKeyboardControlsViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="emailTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="firstNameTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="lastNameTextField" candidateClass="UITextField"/>
                 <relationship kind="outlet" name="middleNameTextField" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="mobileTextField" candidateClass="UITextField"/>
             </relationships>
         </class>
     </classes>

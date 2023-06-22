@@ -1,6 +1,6 @@
 platform :ios, '5.0'
 
-pod 'BlocksKit', '1.8.1'
+pod 'BlocksKit', '1.8.3'
 pod 'BSModalPickerView', '0.1'
 pod 'BSKeyboardControls', '1.1'
 pod "MTBlockTableView", :git => 'https://github.com/mysterioustrousers/MTBlockTableView.git', :commit => 'f5de3c422a9e85399c4e31f66daa890ec05d09f9'
